@@ -1,0 +1,28 @@
+.text-red{
+    color: red;
+}
+
+.fontsize-small{
+    font-size: small;
+}
+
+.fontsize-medium{
+    font-size: medium;
+}
+
+.fontsize-large{
+    font-size: large;
+}
+
+#last-article{
+    font-size: 20px;
+    color: blue;
+}
+
+p{
+    font-size: 15px;
+}
+
+h1, h2{
+    color: green;  
+}

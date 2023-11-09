@@ -1,0 +1,19 @@
+/* Açıklama Satırı */
+
+body{
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    color: white;
+    font-family: Montserrat;
+}
+
+ul{
+    text-transform: uppercase;
+}

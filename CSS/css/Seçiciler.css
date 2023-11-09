@@ -1,0 +1,47 @@
+*{
+    background-color: aquamarine;
+}
+
+h1{
+    color: red;
+}
+
+.fontsize-medium{
+    font-size: medium;
+}
+
+#second-p{
+    font-family: sans-serif;
+}
+
+h1, p, a{
+    text-align: center;
+}
+
+ul>li{
+    list-style: armenian;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+a:active{
+    font-size: small;
+}
+
+ul>li:first-child{
+    color: green;
+}
+
+ul>li:last-child{
+    color: blue;
+}
