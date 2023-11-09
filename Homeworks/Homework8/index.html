@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="website icon" type="png" href="resimler/1507807.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pixelify+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Pixelify Sans', cursive;
+            font-family: 'Roboto', sans-serif;
+        }
+        .top{
+            width: 100%;
+            height: 75px;
+        }
+
+        .top-left{
+            margin: 25px;
+            font-size: 18px;
+            float: left;
+        }
+
+        .top-right{
+            margin: 25px;
+            font-size: 18px;
+            float: right;
+            margin-top: 15px;
+        }
+
+        a{
+            margin: 10px;
+            color: rgb(80, 80, 80);
+        }
+
+        #menu{
+            margin-top: 50px;
+        }
+
+        #sign{
+            background-color: rgb(90, 90, 251);
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            padding: 10px 15px;
+        }
+
+        .article{
+            width: 100%;
+            text-align: center;
+            margin-top: 5%;
+            height: 300px;
+        }
+
+        .search{
+            width: 50%;
+            height: 50px;
+            border-style: solid;
+            border-radius: 50px;
+            border-width: 1px;
+            border-color: gray;
+            margin: 25px auto;
+        }
+
+        #glass{
+            float: left;
+            margin-left: 2%;
+            margin-top: 1.25%;
+        }
+
+        #mic{
+            float: right;
+            margin-right: 2%;
+            margin-top: 0.5%;
+        }
+
+        .article form input{
+            color: rgb(60, 60, 60);
+            float: left;
+            background-color: rgb(230, 230, 230);
+            padding: 10px;
+            border-color: transparent;
+            border-radius: 3px;
+            margin-top: 10px;
+            margin-right:  -580px;
+            margin-left: 630px;
+        }
+
+        .bottom{
+            width: 100%;
+            margin-top: 13.5%;
+            height: 48px;
+            background-color: rgb(230, 230, 230);
+        }
+
+        .bottom-left{
+            font-size: 15px;
+            float: left;
+            margin-top:  15px;
+            margin-left: 25px;
+        }
+
+        .bottom-right{
+            font-size: 15px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="top-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="top-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#" id="menu"><img src="resimler/menu.png" width="25px"></a>
+            <a href="#" id="sign">Sign In</a>
+        </div>
+    </div>
+
+    <div class="article">
+        <img src="resimler/logo.png" width="400">
+        <div class="search">
+            <img src="resimler/searchimg.png" width="30px" id="glass">
+            <img src="resimler/mic.png" width="40px" id="mic">
+        </div>
+        <form><input type="button" value="Google Search"></form>
+        <form><input type="button" value="I'm Feeling Lucky"></form>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div class="bottom-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</body>
+</html>
