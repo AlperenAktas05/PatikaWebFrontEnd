@@ -1,2 +1,2 @@
 ## Javascript Ödevi 2
-Bu ödevde bir görev listesi uygulaması yapıldı.
+Bu ödevde bir yapılacaklar listesi uygulaması yapıldı.
